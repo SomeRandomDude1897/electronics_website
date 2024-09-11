@@ -1,0 +1,624 @@
+#header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    align-items: center;
+    padding: 5px 5px;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+}
+
+#products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+#question-form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-direction: column;
+
+    padding: 40px 0px;
+    
+    width: 700px;
+    height: 400px;
+
+    margin: auto;
+
+    background-color: #FFFFFF;
+    border: 1px solid rgba(118, 118, 118, 0.5);
+    border-radius: 50px;
+}
+
+#question-form-button {
+    width: 210px;
+    height: 35px;
+
+    margin-top: 45px;
+
+    background-color: #9EB4FF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+#question-form-button:active {
+    width: 210px;
+    height: 35px;
+
+    margin-top: 50px;
+
+    background-color: #9eb5ff96;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+
+#feedback-name {
+    margin: 10px, 0px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    transition: opacity 0.5s ease-in-out;
+
+    color: #000000;
+}
+
+#feedback-position {
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    transition: opacity 0.5s ease-in-out;
+
+    color: #545454;
+}
+
+#feedback-textbox {
+
+    width: 80%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+
+    color: #000000;
+}
+
+#feedback-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-direction: column;
+}
+
+#feedback-text-wrapper {
+    width: 75%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#feedback-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#upper-list {
+    margin-right: 75px;
+}
+
+#feedback-text {
+    width: 100%;
+
+    text-align: center;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+#middle-text-lower {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    display: flex;            
+    justify-content: center;   
+    align-items: center;    
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.product-real-cost {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #3E68FF;
+}
+
+.product-previous-cost {
+    text-decoration: line-through;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #282828;
+
+}
+
+.product-description {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #636363;
+}
+
+#middle-text-upper {
+    margin: 15px 20%;
+    display: flex;            
+    justify-content: center;   
+    align-items: center;    
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+#phones-image {
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 12%;
+}
+
+#upper-button {
+    width: 281px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;   
+    align-items: center;    
+
+    text-align: center;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+
+
+    background-color: #8C9FE3;
+    border-radius: 10px;
+
+}
+
+.footer-link {
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+
+.footer-contacts {
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+
+    margin: 0px -2%;
+
+    color: #3E68FF;
+
+
+}
+
+#footer-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  
+    flex-direction: column;
+    padding: 30px;
+}
+
+#lower-logo {
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+
+    margin: 2% 2%;
+
+    color: #000000;
+}
+
+#upper-logo {
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+
+    margin: 10px 3%;
+
+    color: #000000;
+}
+
+.product-name { 
+    text-align: center;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.product-costs {
+    display: flex;
+    align-items: center;
+    margin: 10px 45px;
+}
+
+.product-costs div {
+    margin: 0px 10px;
+}
+
+.order-button {
+    display: flex;            
+    justify-content: center;   
+    align-items: center;    
+
+    text-align: center;
+
+    width: 210px;
+    height: 35px;
+
+    background-color: #9EB4FF;
+    border-radius: 10px;
+
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-direction: column;
+    padding: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(118, 118, 118, 0.5);
+    border-radius: 50px;
+}
+
+.upper-link {
+    color: black;
+}
+
+.feedback-arrow {
+    box-shadow: 0px 0px 27px -8px #3E68FF;
+
+    margin: 0px, 40px;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.feedback-arrow:active {
+    box-shadow: 0px 0px 6px -2px #3E68FF;
+}
+
+#questions-text-upper {
+    margin-top: 40px;
+    margin-bottom: -20px;
+
+    text-align: center;
+    width: 100%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+#questions-text-lower {
+    margin-bottom: 40px;
+
+    text-align: center;
+    width: 100%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+#current-feedback-signs-wrapper {
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-direction: row;
+    margin-left: -2.5%;
+}
+
+.current-feedback-sign-on {
+    width: 35px;
+    height: 6px;
+
+    background: #9EB4FF;
+    border-radius: 2px;
+}
+
+#question-form-email {
+
+    width: 585px; 
+    height: 64px;
+
+    box-sizing: border-box;
+    resize: none;
+
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+    border-radius: 30px;
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+    margin: 15px, 10px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #696969;
+}
+
+#question-form-question {
+
+    width: 585px; 
+    height: 64px;
+
+    box-sizing: border-box;
+    resize: none;
+
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+    border-radius: 30px;
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+    margin: 15px, 10px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #696969;
+}
+
+#question-form-name {
+
+    width: 585px; 
+    height: 64px;
+
+    box-sizing: border-box;
+    resize: none;
+
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+    border-radius: 30px;
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+    margin: 15px, 10px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #696969;
+}
+
+#contacts-map {
+    width: 100%;
+    height: 373.5px;
+
+}
+
+#contacts-text-lower {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+    text-align: center;
+    width: 100%;
+    height: 40px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+#contacts-text-upper {
+    height: 51px;
+
+    margin-top: 60px;
+    margin-bottom: -20px;
+
+    text-align: center;
+    width: 100%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+
+
+    color: #000000;
+
+
+}
+
+.current-feedback-sign-off {
+
+    width: 35px;
+    height: 6px;
+
+    background: #DBDBDB;
+    border-radius: 2px;
+
+}
+
+.upper-menu-element {
+    margin: 0px 20px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

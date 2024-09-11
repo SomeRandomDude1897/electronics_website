@@ -1,0 +1,157 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юный Техник</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="header-wrapper">
+      <h2 id="upper-logo">
+        Юный Техник
+      </h2>
+      <ul id="upper-list">
+        <li class="upper-menu-element">
+          <a href="#" class="upper-link">
+            Товары
+          </a>
+        </li>
+        <li class="upper-menu-element">
+          <a href="#" class="upper-link">
+            Отзывы
+          </a>
+        </li>
+        <li class="upper-menu-element">
+          <a href="#" class="upper-link">
+            Помощь
+          </a>
+        </li>
+        <li class="upper-menu-element">
+          <a href="#" class="upper-link">
+            Контакты
+          </a>
+        </li>
+      </ul>
+      <a id="upper-button" href="#">
+        Посмотреть предложения
+      </a>
+    </div>
+
+    <img id="phones-image" src="phones.png" alt="телефоны картинка">
+    
+    <h2 id="middle-text-upper">Лучшие товары от Юного Техника</h2>
+
+    <h3 id="middle-text-lower">Широкий выбор современной техники</h3>
+
+    <div id="products-wrapper">
+      <div class="product">
+        <img class="product-image" src="product-phone.jpg" alt="телефон продаем картинка">
+        <div class="product-name">Смартфон XY-300</div>
+        <div class="product-description">
+          Безграничные возможности<br>
+          в ваших руках
+        </div>
+        <div class="product-costs">
+          <div class="product-real-cost">18 990</div>
+          <div class="product-previous-cost">23 990</div>
+        </div>
+        <a class="order-button" href="#">Заказать</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="product-notebook.jpg" alt="планшет продаем картинка">
+        <div class="product-name">Планшет Atra Pro</div>
+        <div class="product-description">
+          Настоящее мощное устройство<br>
+          для работы и развлечений
+        </div>
+        <div class="product-costs">
+          <div class="product-real-cost">29 990</div>
+          <div class="product-previous-cost">39 990</div>
+        </div>
+        <a class="order-button" href="#">Заказать</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="product-laptop.jpg" alt="ноутбук продаем картинка">
+        <div class="product-name">Идеальный ноутбук</div>
+        <div class="product-description">
+          Мощность и стиль в<br>
+          каждой детали
+        </div>
+        <div class="product-costs">
+          <div class="product-real-cost">98 990</div>
+          <div class="product-previous-cost">73 990</div>
+        </div>
+        <a class="order-button" href="#">Заказать</a>
+      </div>
+    </div>
+
+    <h2 id="feedback-text">Отзывы покупателей</h2>
+
+    <div id="feedback-wrapper">
+      <img id="feedback-image" class = "fade-in" src="lapteva.jpg" alt="Фото покупателя">
+      <div id="feedback-name"  class = "fade-in"></div>
+      <div id="feedback-position"  class = "fade-in"></div>
+      <div id="feedback-text-wrapper">
+        <button id="backward-button" class="feedback-arrow">&lt</button>
+        <div id="feedback-textbox"  class = "fade-in"></div>
+        <button id="forward-button" class="feedback-arrow">&gt</button>
+      </div>
+      <ul id="current-feedback-signs-wrapper">
+        <li class="current-feedback-sign-on current-feedback-sign"></li>
+        <li class="current-feedback-sign-off current-feedback-sign"></li>
+      </ul>
+    </div>
+
+    <h3 id="questions-text-upper">Остались вопросы?</h3>
+    <h3 id="questions-text-lower">Мы готовы вам помочь</h3>
+
+    <form action="/submit-form" method="POST" id="question-form-wrapper">
+      <input id="question-form-name" type="text" placeholder="Ваше имя"></input>
+      <input id="question-form-email" type="email" placeholder="Ваш email"></input>
+      <input id="question-form-question" type="text" placeholder="Напишите, какие сложности возникли"></input>
+      <button id="question-form-button">Отправить</button>
+    </form>
+
+    <h3 id="contacts-text-upper">Контакты</h3>
+    <h3 id="contacts-text-lower">Мы рады видеть Вас в своем магазине</h3>
+
+    <iframe id="contacts-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.5951683514364!2d37.647256146368036!3d55.746940087705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54aefd5fbfb93%3A0x202d2f59889b53f6!2z0K_Rg9C30YHQutCw0Y8g0YPQuy4sIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTA5MjQw!5e0!3m2!1sru!2sat!4v1726080444443!5m2!1sru!2sat" width="1440" height="373.5" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div id="footer-wrapper">
+      <h2 id="lower-logo">
+        Юный Техник
+      </h2>
+      <ul id="footer-links-wrapper">
+        <li>
+          <a class="footer-link" href="#">О компании</a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">Новости</a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">Помощь</a>
+        </li>
+        <li>
+          <a class="footer-link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <div>
+        <h3 class="footer-contacts">+7 (880) 555-55-55</h3>
+        <h3 class="footer-contacts">youngtechnic@yt.ru</h3>
+      </div>
+      <div>
+        <a href="#" id="telegram-link">
+          <img src="telegram.jpg" alt="Картинка со ссылкой на телеграм">
+        </a>
+        <a href="#" id="email-link">
+          <img src="email.jpg" alt="Картинка со ссылкой на почту">
+        </a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
